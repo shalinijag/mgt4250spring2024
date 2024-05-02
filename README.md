@@ -29,3 +29,8 @@ For this analysis, I utilized a comprehensive e-commerce dataset from the month 
 
 ## Discussion & Summary
 I plan to incorporate machine learning within my project. I have a few ways to do this such as KMeans and clustering which I will detail below. First I need to ensure the data is clean which involves handling missing values, removing duplicates, and standardizing features. So, I would create features that are relevant to customer behavior analysis. A few could be Recency (time since last purchase), Frequency (number of purchases during a period), Monetary Value (total spend by the customer), or even Average Order Value (average spend per purchase). I will divide the dataset into a training set and a testing set (not sure of ratio yet). I will use KMeans and use the method to find the optimal amount of clusters.
+
+
+...
+import pandas as pd
+...
