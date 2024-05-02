@@ -34,3 +34,5 @@ I plan to incorporate machine learning within my project. I have a few ways to d
 ```python
 import pandas as pd
 ```
+
+[Project Link](https://mgt4250spring2024-am7njn6ttrundcdf2naybi.streamlit.app)
