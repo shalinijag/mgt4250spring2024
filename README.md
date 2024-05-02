@@ -1,2 +1,2 @@
-# mgt4250spring2024
-This is a repository for the final course project.
+# MGT 4250 Spring 2024 Course Project
+Author: Shalini Jagannathan (sjagannathan@elon.edu)
