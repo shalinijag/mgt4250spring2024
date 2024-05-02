@@ -12,4 +12,4 @@ These questions are *especially* **important** because ...
 2. Reason 2
 3. Reason 3
 
-[Elon University](https://elon.edu)
+[Elon University](https://www.elon.edu)
