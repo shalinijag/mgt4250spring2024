@@ -14,7 +14,7 @@ def load_data():
 
     try:
         with open(dataset_path, "r"):
-            pass
+            st.info("Found local dataset.")
     except FileNotFoundError:
         st.info("Downloading the dataset from Google Drive...")
         response = requests.get(download_url)
@@ -23,15 +23,20 @@ def load_data():
             f.write(response.content)
         st.success("Dataset downloaded successfully!")
 
+    # Read available columns to confirm their names
     available_columns = pd.read_csv(dataset_path, nrows=0).columns.tolist()
+    st.write("Available Columns: ", available_columns)
+
     required_columns = ["event_time", "category_id", "category_code", "price", "user_id"]
     usecols = [col for col in required_columns if col in available_columns]
 
     if not usecols:
         st.error("No required columns found in the dataset.")
-        return pd.DataFrame()  # Return an empty DataFrame if no columns are found
+        return pd.DataFrame()
 
     df = pd.read_csv(dataset_path, usecols=usecols)
+    st.write("Loaded DataFrame Size:", len(df))
+
     if "event_time" in usecols:
         df['event_time'] = pd.to_datetime(df['event_time'])
     if "price" in usecols:
