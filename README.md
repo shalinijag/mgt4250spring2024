@@ -1,6 +1,10 @@
 # MGT 4250 Spring 2024 Course Project
 Author: Shalini Jagannathan (sjagannathan@elon.edu)
 
+## Download the Data
+The full dataset is available for download here:
+- [2019-Nov.csv on Google Drive](https://drive.google.com/file/d/1IYV7FA4p_-0JPGxyDFneiIn336HvBPTy/view?usp=sharing)
+
 ## Project Description
 ### Questions of Interest:
 - Question 1
