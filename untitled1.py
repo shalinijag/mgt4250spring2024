@@ -11,7 +11,7 @@ import squarify
 def load_data():
     # Path to save the downloaded file
     dataset_path = "2019-Nov.csv"
-    download_url = "https://drive.google.com/uc?export=download&id=1IYV7FA4p_-0JPGxyDFneiIn336HvBPTy"
+    download_url = "https://drive.google.com/file/d/1IYV7FA4p_-0JPGxyDFneiIn336HvBPTy/view?usp=sharing"
 
     try:
         # Check if the file is present locally
