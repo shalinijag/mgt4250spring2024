@@ -37,9 +37,11 @@ def load_data():
     usecols = [col for col in required_columns if col in available_columns]
 
     # Read the CSV file into a DataFrame
-    df = pd.read_csv(dataset_path, usecols=["event_time", "category_code", "price", "user_id"])
-    df['event_time'] = pd.to_datetime(df['event_time'])
-    df['total_price'] = df['price']
+    df = pd.read_csv(dataset_path, usecols=usecols)
+    if "event_time" in usecols:
+        df['event_time'] = pd.to_datetime(df['event_time'])
+    if "price" in usecols:
+        df['total_price'] = df['price']
     return df
 
 # Function to aggregate customer data
