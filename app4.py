@@ -44,13 +44,22 @@ def load_data():
         df['total_price'] = df['price']
     return df
 
-# Function to aggregate customer data
 @st.cache_data
 def aggregate_customer_data(df):
+    # Ensure 'user_id' and required columns are available before grouping
+    required_columns = ["user_id", "price", "event_time"]
+    missing_columns = [col for col in required_columns if col not in df.columns]
+
+    if missing_columns:
+        st.warning(f"Missing columns for aggregation: {', '.join(missing_columns)}")
+        return pd.DataFrame()  # Return an empty DataFrame if columns are missing
+
+    # Perform the aggregation only if all necessary columns are present
     user_id_spend = df.groupby('user_id').agg(
         total_price=('price', 'sum'),
         frequency=('event_time', 'count')
     ).reset_index()
+
     return user_id_spend
 
 # Function to apply KMeans clustering
