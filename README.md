@@ -22,17 +22,17 @@ The project aims to analyze e-commerce customer behavior to identify patterns an
 - How can certain customer behaviors help predict a high lifetime value?
 
 #### Importance Statement
-E-commerce is rapidly growing, and companies need better insights into customer behavior to improve their sales and customer satisfaction. This analysis provides data-driven recommendations, helping businesses tailor their marketing, inventory management, and customer service strategies. According to reports by the National Retail Federation, improving customer experience and personalization are crucial for staying competitive in the digital marketplace.
+E-commerce is rapidly growing, and companies need better insights into customer behavior to improve their sales and customer satisfaction. This analysis hopes to provides data-driven insights, helping businesses tailor their marketing, management, and customer service strategies. According to reports by the National Retail Federation, improving customer experience and personalization are crucial for staying competitive in the digital marketplace.
 
 #### These questions are *especially* **important** because ...
 1. Enhanced Customer Retention:
-Analyzing customer behavior helps identify patterns that contribute to high customer satisfaction and retention. By recognizing loyal customers and understanding their needs, businesses can implement strategies that foster long-term relationships, reduce churn, and increase customer lifetime value.
+Analyzing customer behavior helps identify patterns that contribute to high customer satisfaction and retention. By recognizing loyal customers and understanding their needs, businesses can implement strategies that foster long-term relationships and increase customer lifetime value.
 
 2. Optimized Product Recommendations:
 Studying customer behavior allows businesses to predict customer preferences and recommend products more effectively. This optimization leads to a more personalized shopping experience, increases cross-selling opportunities, and drives overall sales growth by encouraging customers to explore additional products or categories.
 
 3. Improved Inventory Management:
-Understanding customer behavior aids in forecasting demand more accurately. This insight allows businesses to manage inventory efficiently, ensuring popular products remain stocked while reducing excess inventory. As a result, businesses can minimize storage costs, prevent stockouts, and enhance the overall customer experience.
+Understanding customer behavior aids in forecasting demand more accurately. This insight allows businesses to manage inventory efficiently, ensuring popular products remain stocked while reducing excess inventory. As a result, businesses can minimize storage costs, prevent low stock, and enhance the overall customer experience.
 
 ## Data Description and Upload
 
