@@ -10,8 +10,8 @@ import squarify
 @st.cache_data
 def load_data():
     import os
-    os.environ['KAGGLE_USERNAME'] = "shalinijagannathan"
-    os.environ['KAGGLE_KEY'] = "3fe1844e8ac995003363e191d99d3ef2"
+    os.environ['KAGGLE_USERNAME'] = ""
+    os.environ['KAGGLE_KEY'] = ""
     import kaggle
     # kaggle.api.authenticate()
     kaggle.api.dataset_download_files('mkechinov/ecommerce-behavior-data-from-multi-category-store', unzip=True)
