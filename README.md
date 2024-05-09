@@ -39,14 +39,11 @@ Understanding customer behavior aids in forecasting demand more accurately. This
 For this analysis, I utilized a comprehensive e-commerce dataset from the month of November 2019, sourced from (Kechinov ECommerce behavior data from Multi Category Store). This dataset was chosen for its extensive details on customer interactions and transactions, offering an overall view of consumer behavior over a significant period.
 
 Dataset Source: E-commerce Dataset on [Kaggle](https://www.kaggle.com/datasets/mkechinov/ecommerce-behavior-data-from-multi-category-store)
-
-Required File: 2019-Nov.csv
+  Required File: 2019-Nov.csv
 
 How to Download:
-
-Option 1: Access it via Kaggle with the link provided and follow the instructions for downloading.
-
-Option 2: Alternatively, download it from the Google Drive link provided above.
+  Option 1: Access it via Kaggle with the link provided and follow the instructions for downloading.
+  Option 2: Alternatively, download it from the Google Drive link provided above.
 
 ## Data Types and Columns Descriptions
 
