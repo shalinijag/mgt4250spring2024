@@ -5,6 +5,7 @@ import plotly.express as px
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import squarify
+import kaggle
 
 # Function to load data with download support
 @st.cache_data
