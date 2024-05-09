@@ -68,6 +68,7 @@ Option 2: Alternatively, download it from the Google Drive link provided above.
 #### 3:
 <img width="574" alt="Screenshot 2024-05-09 at 1 52 19 AM" src="https://github.com/shalinijag/mgt4250spring2024/assets/167243104/abea08a9-71ec-4574-83d6-ae311a63111a">
 
+
 1. Customer Segmentation Tree Maps:
 - a. Static Tree Map:
   - Interpretation: The static tree map provides a clear visual representation of the top 20 customers based on their total spending. The size of each block indicates the total revenue contributed by each customer. It helps businesses quickly identify their most valuable customers
@@ -126,7 +127,7 @@ I used ChatGPT4.0 for this query.
           - Loyalty program membership and engagement can be a strong indicator of high LTV.
 
 - Lastly, I asked AI "what do you think the answers are to these questions?". This is what it came up with:
-  1. Most Popular Products/Categories Across Customer Segments:
+1. Most Popular Products/Categories Across Customer Segments:
     - Younger demographics often favor trendy tech gadgets, fashion items, or gaming products.
     - Older customers may lean towards home goods, appliances, or personal care.
     - Geographic regions could have unique preferences due to local trends or cultural influences. Urban areas may show higher interest in luxury products, while rural regions might focus on essentials.
