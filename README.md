@@ -52,7 +52,7 @@ For this analysis, I utilized a comprehensive e-commerce dataset from the month 
 - category_code (object): The string representation of a product's category, indicating the type of product being purchased. It helps in understanding product preferences across different categories.
 - price (float64): The value representing the price of an individual item. This data is crucial for calculating total spending and analyzing the monetary value of transactions.
 - user_id (int64): An integer representing the unique identifier for each customer. This allows grouping and tracking purchase patterns by individual customers.
-- total_price (float64): The numeric value representing the `total` price of products in a transaction or user-specific aggregation. This helps analyze customer spending patterns and determine customer lifetime value.
+- total_price (float64): The numeric value representing the **total** price of products in a transaction or user-specific aggregation. This helps analyze customer spending patterns and determine customer lifetime value.
 
 ## Interpreting Visualizations
 
