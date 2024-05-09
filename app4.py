@@ -5,7 +5,6 @@ import plotly.express as px
 from sklearn.cluster import KMeans
 import matplotlib.pyplot as plt
 import squarify
-import kaggle
 
 # Function to load data with download support
 @st.cache_data
@@ -13,6 +12,7 @@ def load_data():
     import os
     os.environ['KAGGLE_USERNAME'] = "shalinijagannathan"
     os.environ['KAGGLE_KEY'] = "3fe1844e8ac995003363e191d99d3ef2"
+    import kaggle
     # kaggle.api.authenticate()
     kaggle.api.dataset_download_files('mkechinov/ecommerce-behavior-data-from-multi-category-store', unzip=True)
     dataset_path = "2019-Nov.csv"
