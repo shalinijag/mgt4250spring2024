@@ -8,4 +8,3 @@ xlrd
 seaborn
 squarify
 kaggle
-os
