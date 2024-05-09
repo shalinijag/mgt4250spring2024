@@ -13,7 +13,7 @@ def load_data():
     import os
     os.environ['KAGGLE_USERNAME'] = "shalinijagannathan"
     os.environ['KAGGLE_KEY'] = "3fe1844e8ac995003363e191d99d3ef2"
-    kaggle.api.authenticate()
+    # kaggle.api.authenticate()
     kaggle.api.dataset_download_files('mkechinov/ecommerce-behavior-data-from-multi-category-store', unzip=True)
     dataset_path = "2019-Nov.csv"
     # download_url = "https://drive.google.com/uc?export=download&id=1IYV7FA4p_-0JPGxyDFneiIn336HvBPTy"
